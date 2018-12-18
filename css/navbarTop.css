@@ -6,13 +6,29 @@
 .list-inline a:hover{color:rgb(233, 6, 6);text-decoration: none;}
 /* 搜索 */
 .search{margin:20px auto;}
+.btn-primary{background-color: rgb(0, 132, 255)}
 .inputs_keywords{height:29px;line-height: 29px;}
 .inputs_keywords a{padding: 6px;color:rgb(85, 84, 84);}
 .inputs_keywords a:hover{color:rgb(233, 6, 6);text-decoration: none;}
 /* 导航栏 */
-.navbar{background-color: rgb(0, 132, 255)}
+.navbar{background-color: rgb(0, 132, 255);margin-bottom: 0;}
 .navbar-toggle .icon-bar {background-color: #fff;}
-.navbar a{font-size: 18px;color:rgb(250, 250, 250);}
+.navbar a{font-size: 18px;color:rgb(250, 250, 250);width:102px;}
 .navbar a:hover{color:rgb(0, 0, 0);text-decoration: none;}
+/* 通告栏 */
+.advert{background-color:rgb(238, 238, 238);height:40px;}
 
+td{border-right:1px solid rgb(201, 199, 199);height:35px;}
+.tda{width:260px;background:url(../img/gg.png) no-repeat 1px 11px;}
+.tda span{padding-left: 12px;text-align: center;}
+.tda,.td0 span{color:rgb(97, 96, 96);}
+.td0,.td6{width:110px;border:none;}
+.td1{width:120px;background:url(../img/nav_td1.png) no-repeat 1px 3px;}
+.td2{width:120px;background:url(../img/nav_td2.png) no-repeat 1px 3px;}
+.td3{width:120px;background:url(../img/nav_td3.png) no-repeat 1px 3px;}
+.td4{width:120px;background:url(../img/nav_td4.png) no-repeat 1px 3px;}
+.td5{width:120px;background:url(../img/nav_td5.png) no-repeat 1px 3px;}
+.td6{width:120px;background:url(../img/nav_td6.png) no-repeat 1px 3px;}
+.common_div{margin-left: 24px;margin-top:-5px;margin-bottom:-9px;height:35px;line-height: 17px;padding-bottom: 4px;color:rgb(161, 160, 160);font-weight: bolder;}
+.common_date{color:rgb(247, 90, 90);}
  
