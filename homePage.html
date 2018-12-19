@@ -1,88 +1,131 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>电梯大叔首页</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/navbarTop.css" rel="stylesheet"> 
+    <link href="css/navbarTop.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--顶部-开始-->
     <div class="topbar hidden-sm hidden-xs">
         <div class="container">
             <div class="row">
                 <span class="topbar_title col-xs-6 col-md-4">欢迎欢迎大虎山！</span>
                 <span class="topbar_link col-xs-12 col-sm-6 col-md-8 " style="float:right">
-                  <ul class="list-inline">
-                      <li><img src="img/wbqy.png"/><a href="http://192.168.1.104:8080/hello/hello">维保企业端</a></li>
-                      <span>|</span>
-                      <li><img src="img/wy.png"/><a href="">物业端</a></li>
-                      <span>|</span>
-                      <li><img src="img/jgjg.png"/><a href="">监管机构端</a></li>
-                      <span>|</span>
-                      <li><img src="img/sjfx.png"/><a href="">产品官网</a></li>
-                      <li><a href=""><img src="img/registered.png"/></a></li>
-                      <li><a href=""><img src="img/landing.png"/></a></li>
-                      <li><a href=""><img src="img/weixin.png"/></a></li>   
+                    <ul class="list-inline">
+                        <li>
+                            <img src="img/wbqy.png" />
+                            <a href="http://192.168.1.104:8080/hello/hello">维保企业端</a>
+                        </li>
+                        <span>|</span>
+                        <li>
+                            <img src="img/wy.png" />
+                            <a href="">物业端</a>
+                        </li>
+                        <span>|</span>
+                        <li>
+                            <img src="img/jgjg.png" />
+                            <a href="">监管机构端</a>
+                        </li>
+                        <span>|</span>
+                        <li>
+                            <img src="img/sjfx.png" />
+                            <a href="">产品官网</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/registered.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/landing.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="img/weixin.png" />
+                            </a>
+                        </li>
                     </ul>
                 </span>
             </div>
         </div>
     </div>
-<!--顶部-结束-->
-<!-- 搜索-开始 -->
+    <!--顶部-结束-->
+    <!-- 搜索-开始 -->
     <div class="search container">
         <div class="row">
             <div class="logo_img col-md-3">
-              <img src="img/logo.png"/>
+                <img src="img/logo.png" />
             </div>
             <div class="col-md-6">
-              <div class="input-group">
-                <div class="input-group-btn ">
-                  <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">电梯 <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">电梯</a></li>
-                      <li><a href="#">维保公司</a></li>
-                      <li><a href="#">物业</a></li>
-                      <li><a href="#">配件商</a></li>
-                      <li><a href="#">技师</a></li>
-                      <li><a href="#">招标信息</a></li>
-                      <li><a href="#">资讯文章</a></li>
-                    </ul>
+                <div class="input-group">
+                    <div class="input-group-btn ">
+                        <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">电梯
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">电梯</a>
+                            </li>
+                            <li>
+                                <a href="#">维保公司</a>
+                            </li>
+                            <li>
+                                <a href="#">物业</a>
+                            </li>
+                            <li>
+                                <a href="#">配件商</a>
+                            </li>
+                            <li>
+                                <a href="#">技师</a>
+                            </li>
+                            <li>
+                                <a href="#">招标信息</a>
+                            </li>
+                            <li>
+                                <a href="#">资讯文章</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <input type="text" class="form-control input-lg" placeholder="请输入关键词">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary btn-lg" type="button">搜&nbsp;索</button>
+                    </span>
                 </div>
-                <input type="text" class="form-control input-lg" placeholder="请输入关键词">
-                <span class="input-group-btn">
-                  <button class="btn btn-primary btn-lg" type="button">搜&nbsp;索</button>
-                </span>
-              </div>
-              <div class="inputs_keywords hidden-sm hidden-xs">
-                  <a href="">电梯</a>
-                  <a href="">电梯安全</a>
-                  <a href="">电梯大叔</a>
-                  <a href="">电梯保险</a>
-                  <a href="">电梯配件</a>
-                  <a href="">电梯维保</a>
-              </div>
+                <div class="inputs_keywords hidden-sm hidden-xs">
+                    <a href="">电梯</a>
+                    <a href="">电梯安全</a>
+                    <a href="">电梯大叔</a>
+                    <a href="">电梯保险</a>
+                    <a href="">电梯配件</a>
+                    <a href="">电梯维保</a>
+                </div>
             </div>
-            <div style="height:77px;" class="logo_img col-md-3 hidden-sm hidden-xs">  
-              <img src="img/tel.jpg"/>
+            <div style="height:77px;" class="logo_img col-md-3 hidden-sm hidden-xs">
+                <img src="img/tel.jpg" />
             </div>
         </div>
     </div>
-<!-- 搜索-结束 -->
-<!--导航-开始-->
+    <!-- 搜索-结束 -->
+    <!--导航-开始-->
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -92,75 +135,162 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="">找电梯</a></li>
-                    <li><a href="">找维保</a></li>
-                    <li><a href="">找物业</a></li>
-                    <li><a href="">找配件</a></li>
-                    <li><a href="">找技师</a></li>
-                    <li><a href="">工程招标</a></li>
-                    <li><a href="">行业资讯</a></li>
-                    <li><a href="">电梯学堂</a></li>
-                    <li><a href="">配件商城</a></li>
-                    <li><a href="">人才招聘</a></li>
+                    <li>
+                        <a href="">找电梯</a>
+                    </li>
+                    <li>
+                        <a href="">找维保</a>
+                    </li>
+                    <li>
+                        <a href="">找物业</a>
+                    </li>
+                    <li>
+                        <a href="">找配件</a>
+                    </li>
+                    <li>
+                        <a href="">找技师</a>
+                    </li>
+                    <li>
+                        <a href="">工程招标</a>
+                    </li>
+                    <li>
+                        <a href="">行业资讯</a>
+                    </li>
+                    <li>
+                        <a href="">电梯学堂</a>
+                    </li>
+                    <li>
+                        <a href="">配件商城</a>
+                    </li>
+                    <li>
+                        <a href="">人才招聘</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="advert">
-            <div class="container table-responsive margin:auto 100px;">
-                <table class="table">
-                      <tbody>
-                            <tr>
-                                <td class="tda"><span>新增数据：<a href="">hfudfgu</a></span></td>
-                                <td class="td0">
-                                    <span>平台在线数据</span>
-                                </td>
-                                <td class="td1">
-                                        <div class="common_div">
-                                            <div>电梯</div>
-                                            <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                <td class="td2">
-                                        <div class="common_div">
-                                                <div>电梯</div>
-                                                <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                <td class="td3">
-                                        <div class="common_div">
-                                                <div>电梯</div>
-                                                <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                <td class="td4">
-                                        <div class="common_div">
-                                                <div>电梯</div>
-                                                <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                <td class="td5">
-                                        <div class="common_div">
-                                                <div>电梯</div>
-                                                <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                <td class="td6">
-                                        <div class="common_div">
-                                                <div>电梯</div>
-                                                <div class="common_date">676887台</div>
-                                        </div>
-                                </td>
-                                
-                            </tr>
-                      </tbody>
-                </table>
-            </div>
-    </div>
-    <nav class="navbar navbar-default navbar-fixed-bottom">
-        <div class="container">
-          ...
+    <div class="row advert hidden-sm hidden-xs">
+        <div class="container table-responsive margin:auto 100px;">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td class="tda">
+                            <span>新增数据：
+                                <a href="">hfudfgu</a>
+                            </span>
+                        </td>
+                        <td class="td0">
+                            <span>平台在线数据</span>
+                        </td>
+                        <td class="td1">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+                        <td class="td2">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+                        <td class="td3">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+                        <td class="td4">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+                        <td class="td5">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+                        <td class="td6">
+                            <div class="common_div">
+                                <div>电梯</div>
+                                <div class="common_date">676887台</div>
+                            </div>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </nav>
-  </body>
+    </div>
+    <!--导航-结束-->
+    <!--底部-开始-->
+    <footer class="footer navbar-fixed-bottom ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div>
+                        <img style="border:1px solid red;" src="img/logo2.png">
+                    </div>
+                    <div class="cl">
+                        <ul>
+                            <li>电梯大叔</li>
+                            <li>找电梯</li>
+                            <li>找维保</li>
+                            <li>找物业</li>
+                            <li>找配件</li>
+                            <li>找技师</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cm1">
+                        <ul>
+                            <li>平台入口</li>
+                            <li>维保企业端</li>
+                            <li>物业端</li>
+                            <li>监管机构端</li>
+                            <li>大数据分享</li>
+                            <li>电梯保险</li>
+                        </ul>
+                    </div>
+                    <div class="cm2">
+                        <ul>
+                            <li>关于我们</li>
+                            <li>免责声明</li>
+                            <li>服务协议</li>
+                            <li>商业合作</li>
+                            <li>广告服务</li>
+                            <li>网站地图</li>
+                        </ul>
+                    </div>
+                    <div class="cm3">
+                        <ul>
+                            <li>关注电梯大叔公众号</li>
+                            <li>
+                                <img src="img/public.jpg" height="95" width="90">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="cr">
+                        <ul>
+                            <li>电梯大叔云平台·把爱装进每一部电梯</li>
+                            <li>www.diantidashu.com</li>
+                            <li>CopyRight © 2000-2017 All Rights Reserved.</li>
+                            <li>皖ICP备11001086号-8
+                                <img src="img/pic.gif">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cr2"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--底部-结束-->
+</body>
+
 </html>
